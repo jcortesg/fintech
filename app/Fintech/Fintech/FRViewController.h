@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import "LDInterface.h"
+
 
 @interface FRViewController : UIViewController
+{
+}
+@property (nonatomic,strong) IBOutlet GMSMapView *googleMapsView;
+
 
 @end

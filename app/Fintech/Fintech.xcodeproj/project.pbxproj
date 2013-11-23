@@ -21,6 +21,25 @@
 		F51A8DB01840836500FDC226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8D921840836500FDC226 /* UIKit.framework */; };
 		F51A8DB81840836500FDC226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51A8DB61840836500FDC226 /* InfoPlist.strings */; };
 		F51A8DBA1840836500FDC226 /* FintechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DB91840836500FDC226 /* FintechTests.m */; };
+		F51A8DC418408ABF00FDC226 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DC318408ABF00FDC226 /* GoogleMaps.framework */; };
+		F51A8DC618408B0F00FDC226 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DC518408B0F00FDC226 /* AVFoundation.framework */; };
+		F51A8DC818408B2000FDC226 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DC718408B2000FDC226 /* CoreData.framework */; };
+		F51A8DCA18408B3D00FDC226 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DC918408B3D00FDC226 /* CoreLocation.framework */; };
+		F51A8DCC18408B8900FDC226 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DCB18408B8900FDC226 /* CoreText.framework */; };
+		F51A8DCE18408B9400FDC226 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DCD18408B9400FDC226 /* GLKit.framework */; };
+		F51A8DD018408BA100FDC226 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DCF18408BA100FDC226 /* ImageIO.framework */; };
+		F51A8DD218408BB900FDC226 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DD118408BB900FDC226 /* libc++.dylib */; };
+		F51A8DD418408BC700FDC226 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DD318408BC700FDC226 /* libicucore.dylib */; };
+		F51A8DD618408BD500FDC226 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DD518408BD500FDC226 /* libz.dylib */; };
+		F51A8DD818408BF100FDC226 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DD718408BF100FDC226 /* OpenGLES.framework */; };
+		F51A8DDA18408BFC00FDC226 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DD918408BFC00FDC226 /* QuartzCore.framework */; };
+		F51A8DDC18408C0D00FDC226 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DDB18408C0D00FDC226 /* SystemConfiguration.framework */; };
+		F51A8DDE1840923C00FDC226 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F51A8DDD1840923C00FDC226 /* GoogleMaps.bundle */; };
+		F51A8DEA1840C72100FDC226 /* ApiDataException.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE11840C72100FDC226 /* ApiDataException.m */; };
+		F51A8DEB1840C72100FDC226 /* EnumDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE31840C72100FDC226 /* EnumDefs.m */; };
+		F51A8DEC1840C72100FDC226 /* JSONInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE51840C72100FDC226 /* JSONInterface.m */; };
+		F51A8DED1840C72100FDC226 /* LDInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE71840C72100FDC226 /* LDInterface.m */; };
+		F51A8DEE1840C72100FDC226 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +72,30 @@
 		F51A8DB51840836500FDC226 /* FintechTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FintechTests-Info.plist"; sourceTree = "<group>"; };
 		F51A8DB71840836500FDC226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F51A8DB91840836500FDC226 /* FintechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FintechTests.m; sourceTree = "<group>"; };
+		F51A8DC318408ABF00FDC226 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		F51A8DC518408B0F00FDC226 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F51A8DC718408B2000FDC226 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F51A8DC918408B3D00FDC226 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F51A8DCB18408B8900FDC226 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F51A8DCD18408B9400FDC226 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F51A8DCF18408BA100FDC226 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F51A8DD118408BB900FDC226 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F51A8DD318408BC700FDC226 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F51A8DD518408BD500FDC226 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F51A8DD718408BF100FDC226 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F51A8DD918408BFC00FDC226 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F51A8DDB18408C0D00FDC226 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F51A8DDD1840923C00FDC226 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F51A8DE01840C72100FDC226 /* ApiDataException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiDataException.h; sourceTree = "<group>"; };
+		F51A8DE11840C72100FDC226 /* ApiDataException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiDataException.m; sourceTree = "<group>"; };
+		F51A8DE21840C72100FDC226 /* EnumDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumDefs.h; sourceTree = "<group>"; };
+		F51A8DE31840C72100FDC226 /* EnumDefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumDefs.m; sourceTree = "<group>"; };
+		F51A8DE41840C72100FDC226 /* JSONInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONInterface.h; sourceTree = "<group>"; };
+		F51A8DE51840C72100FDC226 /* JSONInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONInterface.m; sourceTree = "<group>"; };
+		F51A8DE61840C72100FDC226 /* LDInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDInterface.h; sourceTree = "<group>"; };
+		F51A8DE71840C72100FDC226 /* LDInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDInterface.m; sourceTree = "<group>"; };
+		F51A8DE81840C72100FDC226 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
+		F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +103,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51A8DDC18408C0D00FDC226 /* SystemConfiguration.framework in Frameworks */,
+				F51A8DDA18408BFC00FDC226 /* QuartzCore.framework in Frameworks */,
+				F51A8DD818408BF100FDC226 /* OpenGLES.framework in Frameworks */,
+				F51A8DD618408BD500FDC226 /* libz.dylib in Frameworks */,
+				F51A8DD418408BC700FDC226 /* libicucore.dylib in Frameworks */,
+				F51A8DD218408BB900FDC226 /* libc++.dylib in Frameworks */,
+				F51A8DD018408BA100FDC226 /* ImageIO.framework in Frameworks */,
+				F51A8DCE18408B9400FDC226 /* GLKit.framework in Frameworks */,
+				F51A8DCC18408B8900FDC226 /* CoreText.framework in Frameworks */,
+				F51A8DCA18408B3D00FDC226 /* CoreLocation.framework in Frameworks */,
+				F51A8DC818408B2000FDC226 /* CoreData.framework in Frameworks */,
+				F51A8DC618408B0F00FDC226 /* AVFoundation.framework in Frameworks */,
 				F51A8D911840836500FDC226 /* CoreGraphics.framework in Frameworks */,
 				F51A8D931840836500FDC226 /* UIKit.framework in Frameworks */,
+				F51A8DC418408ABF00FDC226 /* GoogleMaps.framework in Frameworks */,
 				F51A8D8F1840836500FDC226 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +157,20 @@
 		F51A8D8D1840836500FDC226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F51A8DDD1840923C00FDC226 /* GoogleMaps.bundle */,
+				F51A8DDB18408C0D00FDC226 /* SystemConfiguration.framework */,
+				F51A8DD918408BFC00FDC226 /* QuartzCore.framework */,
+				F51A8DD718408BF100FDC226 /* OpenGLES.framework */,
+				F51A8DD518408BD500FDC226 /* libz.dylib */,
+				F51A8DD318408BC700FDC226 /* libicucore.dylib */,
+				F51A8DD118408BB900FDC226 /* libc++.dylib */,
+				F51A8DCF18408BA100FDC226 /* ImageIO.framework */,
+				F51A8DCD18408B9400FDC226 /* GLKit.framework */,
+				F51A8DCB18408B8900FDC226 /* CoreText.framework */,
+				F51A8DC918408B3D00FDC226 /* CoreLocation.framework */,
+				F51A8DC718408B2000FDC226 /* CoreData.framework */,
+				F51A8DC518408B0F00FDC226 /* AVFoundation.framework */,
+				F51A8DC318408ABF00FDC226 /* GoogleMaps.framework */,
 				F51A8D8E1840836500FDC226 /* Foundation.framework */,
 				F51A8D901840836500FDC226 /* CoreGraphics.framework */,
 				F51A8D921840836500FDC226 /* UIKit.framework */,
@@ -112,6 +182,7 @@
 		F51A8D941840836500FDC226 /* Fintech */ = {
 			isa = PBXGroup;
 			children = (
+				F51A8DDF1840C72100FDC226 /* common */,
 				F51A8D9D1840836500FDC226 /* FRAppDelegate.h */,
 				F51A8D9E1840836500FDC226 /* FRAppDelegate.m */,
 				F51A8DA01840836500FDC226 /* Main.storyboard */,
@@ -150,6 +221,23 @@
 				F51A8DB61840836500FDC226 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51A8DDF1840C72100FDC226 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F51A8DE01840C72100FDC226 /* ApiDataException.h */,
+				F51A8DE11840C72100FDC226 /* ApiDataException.m */,
+				F51A8DE21840C72100FDC226 /* EnumDefs.h */,
+				F51A8DE31840C72100FDC226 /* EnumDefs.m */,
+				F51A8DE41840C72100FDC226 /* JSONInterface.h */,
+				F51A8DE51840C72100FDC226 /* JSONInterface.m */,
+				F51A8DE61840C72100FDC226 /* LDInterface.h */,
+				F51A8DE71840C72100FDC226 /* LDInterface.m */,
+				F51A8DE81840C72100FDC226 /* NSDictionary+Helper.h */,
+				F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +320,7 @@
 				F51A8DA71840836500FDC226 /* Images.xcassets in Resources */,
 				F51A8D991840836500FDC226 /* InfoPlist.strings in Resources */,
 				F51A8DA21840836500FDC226 /* Main.storyboard in Resources */,
+				F51A8DDE1840923C00FDC226 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51A8DEA1840C72100FDC226 /* ApiDataException.m in Sources */,
+				F51A8DEC1840C72100FDC226 /* JSONInterface.m in Sources */,
+				F51A8DEE1840C72100FDC226 /* NSDictionary+Helper.m in Sources */,
 				F51A8D9F1840836500FDC226 /* FRAppDelegate.m in Sources */,
 				F51A8D9B1840836500FDC226 /* main.m in Sources */,
+				F51A8DEB1840C72100FDC226 /* EnumDefs.m in Sources */,
 				F51A8DA51840836500FDC226 /* FRViewController.m in Sources */,
+				F51A8DED1840C72100FDC226 /* LDInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +473,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/JohnTorres/git/fintech/app/Fintech,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fintech/Fintech-Prefix.pch";
 				INFOPLIST_FILE = "Fintech/Fintech-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +491,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/JohnTorres/git/fintech/app/Fintech,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fintech/Fintech-Prefix.pch";
 				INFOPLIST_FILE = "Fintech/Fintech-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
