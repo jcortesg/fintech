@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Designing Mobile User Experiences." />
+    <meta name="keywords" content="lungo, quojs, html5, javascript, library, framework, gestures, micro, spain, bilbao, apple, iphone, ipad, android, tablet, apps, applications, ajax, tapquo, jquery, zepto" />
+    <meta name="language" content="english">
+    <meta name="robots" content="follow">
+    <meta name="googlebot" content="follow">
+    <title>Bankze - La App que te ahorra tiempo y cuida tu salud financiera.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="components/tuktuk/tuktuk.css">
+    <link rel="stylesheet" href="components/lungo.icon/lungo.icon.css">
+    <link rel="stylesheet" href="stylesheets/tuktuk.lungo.theme.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body data-page="tuktuk">
+<!-- ========================== Header ========================== -->
+<header>
+</header>
+
+<!-- ========================== Device ========================== -->
+<section class="padding">
+    <div class="column_8 radius" align="left">
+                <form id="form" name="form" class="margin-top">
+                    <fieldset>
+                    <input type="text" placeholder="Correo electronico"  name="default" id="default">
+                    <input type="text" placeholder="Password"name="default" id="default"><br/>
+                    </fieldset>
+                    <fieldset>
+                        Recordar: 
+                        <div data-control="checkbox" class="">
+                            <input type="checkbox" value="false" id="prueba">
+                            <label for="prueba"></label>
+                        </div><br/>
+                        <a href="#" class="button right large">Ingresar</a>
+                    </fieldset>
+                    
+                </form>
+    </div>   
+</section>
+<section>
+ <footer class="">
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="components/tuktuk/tuktuk.js"></script>
+    <script>
+        var header = $("body > header");
+        $(window).scroll(function(event) {
+            height = $(event.target).scrollTop();
+            if (height > 80 && height < 720) {
+                header.addClass("fixed").removeClass("opacity");
+            } else if (height > 720) {
+                header.addClass("fixed opacity");
+            } else {
+                header.removeClass("fixed opacity");
+            }
+        });
+    </script>
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-5126579-21', 'bankze.co');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
