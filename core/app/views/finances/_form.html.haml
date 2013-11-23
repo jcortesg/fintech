@@ -1,0 +1,52 @@
+= form_for @finance do |f|
+  - if @finance.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@finance.errors.count, "error")} prohibited this finance from being saved:"
+      %ul
+        - @finance.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :activo_liquido
+    = f.number_field :activo_liquido
+  .field
+    = f.label :activo_restante
+    = f.number_field :activo_restante
+  .field
+    = f.label :deuda_hipoteca
+    = f.number_field :deuda_hipoteca
+  .field
+    = f.label :tarjetas_rativos
+    = f.number_field :tarjetas_rativos
+  .field
+    = f.label :creditos
+    = f.number_field :creditos
+  .field
+    = f.label :ingresos
+    = f.number_field :ingresos
+  .field
+    = f.label :pension
+    = f.number_field :pension
+  .field
+    = f.label :otros_ingresos
+    = f.number_field :otros_ingresos
+  .field
+    = f.label :cuaota_hipotecaria
+    = f.number_field :cuaota_hipotecaria
+  .field
+    = f.label :targetas_credito
+    = f.number_field :targetas_credito
+  .field
+    = f.label :otro_creditos
+    = f.number_field :otro_creditos
+  .field
+    = f.label :pagos_recurrentes
+    = f.number_field :pagos_recurrentes
+  .field
+    = f.label :ahorros
+    = f.number_field :ahorros
+  .field
+    = f.label :abono_hogar
+    = f.number_field :abono_hogar
+  .actions
+    = f.submit 'Save'

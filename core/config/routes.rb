@@ -1,5 +1,8 @@
 Ft::Application.routes.draw do
   
+  resources :finances
+
+
   get "home/index"
 
   devise_for :users

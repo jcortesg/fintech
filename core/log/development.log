@@ -4722,3 +4722,207 @@ ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktu
 
 
   Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-23 05:35:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 60ms (Views: 59.4ms)
+
+
+Started GET "/components/tuktuk/tuktuk.js" for 127.0.0.1 at 2013-11-23 05:35:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktuk.js"):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-23 05:36:52 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered vendor/bundle/ruby/1.9.1/gems/devise-3.2.1/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered vendor/bundle/ruby/1.9.1/gems/devise-3.2.1/app/views/devise/registrations/new.html.erb within layouts/application (225.8ms)
+Completed 200 OK in 285ms (Views: 283.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-23 05:47:25 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/home (6.8ms)
+Compiled finances.css  (29ms)  (pid 57704)
+Compiled scaffolds.css  (20ms)  (pid 57704)
+Compiled application.css  (113ms)  (pid 57704)
+Compiled finances.js  (286ms)  (pid 57704)
+Compiled application.js  (300ms)  (pid 57704)
+Completed 200 OK in 898ms (Views: 897.4ms)
+
+
+Started GET "/components/tuktuk/tuktuk.js" for 127.0.0.1 at 2013-11-23 05:47:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktuk.js"):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-23 05:47:28 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 14ms (Views: 13.6ms)
+
+
+Started GET "/components/tuktuk/tuktuk.js" for 127.0.0.1 at 2013-11-23 05:47:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktuk.js"):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/finances" for 127.0.0.1 at 2013-11-23 05:47:44 -0500
+Processing by FinancesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (172.7650ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=ft_development collection=finances selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (84.3620ms)
+  Rendered finances/index.html.haml within layouts/application (270.4ms)
+Completed 200 OK in 301ms (Views: 299.7ms)
+
+
+Started GET "/finances" for 127.0.0.1 at 2013-11-23 05:48:23 -0500
+Processing by FinancesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9370ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=ft_development collection=finances selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2210ms)
+  Rendered finances/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms)
+
+
+Started GET "/finances.json" for 127.0.0.1 at 2013-11-23 05:49:28 -0500
+Processing by FinancesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8829ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=ft_development collection=finances selector={} flags=[:slave_ok] limit=0 skip=0 batch_size=nil fields=nil (0.2787ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/components/tuktuk/tuktuk.js" for 127.0.0.1 at 2013-11-23 05:49:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktuk.js"):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-23 06:10:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 152ms (Views: 151.7ms)
+
+
+Started GET "/components/tuktuk/tuktuk.js" for 127.0.0.1 at 2013-11-23 06:10:31 -0500
+
+ActionController::RoutingError (No route matches [GET] "/components/tuktuk/tuktuk.js"):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jhoncortes/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)

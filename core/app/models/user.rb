@@ -15,7 +15,10 @@ class User
   ## Recoverable
   field :reset_password_token,   :type => String
   field :reset_password_sent_at, :type => Time
-
+  ##personal info
+  field :city,                   :type => String
+  field :both,                   :type => Date 
+  field :pictute,                :type => String
   ## Rememberable
   field :remember_created_at, :type => Time
 
