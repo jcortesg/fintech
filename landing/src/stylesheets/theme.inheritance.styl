@@ -1,0 +1,215 @@
+@import "__init.styl"
+
+
+body[data-page="tuktuk"]
+  & > header
+    HEIGHT = 80px
+    position: fixed
+    width: 100%
+    z-index: 1980
+    height: HEIGHT
+    background-color: #fff
+    transition background-color 600ms
+    &, & > *
+      line-height: HEIGHT
+
+    & nav a
+      opacity: 0.8
+      font-weight: 400
+      &:not(.icon)
+        padding-bottom: 0.25em
+        transition-property box-shadow
+        transition-duration 300ms
+        font-weight: bold
+      &.icon
+        font-size: 1.5em
+      &:hover, &:active
+        opacity: 1
+        &:not(.icon)
+          box-shadow: 0 2px darken(THEME, 50%)
+
+    & .logo
+      height: 44px
+      margin-top: 18px
+      background: url("../images/logo_header.png") no-repeat
+      background-size: auto 100%
+
+    &.fixed
+      position: fixed
+      background-color: rgba(0,0,0,0.2)
+      &.opacity
+        background-color: THEME
+        box-shadow: 0 2px rgba(0,0,0,0.1)
+
+      & nav a
+        color: #fff !important
+
+      & .logo
+        background: url("../images/logo.png") no-repeat
+        background-size: auto 100%
+
+  & section
+    &.front
+      padding: 7em 0 14em 0
+      background: #111 url("../images/bck_hands.jpg") no-repeat center center
+      background-size: cover
+
+      & .phone
+        background-image: url("../images/phone.png")
+        height: 613px
+        width: 339px
+        & > iframe
+          position: relative
+          top: 38px
+          left: 20px
+          width: 300px
+          height: 490px
+      & h3
+        font-weight: 100
+        margin-bottom: 2em
+      & h5
+        font-weight: bold
+
+    & h1
+      font-size: 3.75em
+      margin-bottom: 1em
+      & strong
+        font-weight: 300 !important
+
+    & .feature
+      position: relative
+      margin-bottom: 5%
+      & > img
+        position: absolute
+
+      & > .icon
+        THEME = darken(THEME, 5%)
+        SIZE = 108px
+        position: absolute
+        width: SIZE
+        height: SIZE
+        background-color: COLOR
+        border-radius: (SIZE / 2)
+        font-size: (SIZE/ 1.8)
+        line-height: (SIZE / 1.05)
+        text-align: center
+        color: lighten(THEME, 100%)
+        box-shadow  inset 0 0 0 0.1em THEME
+        transition all 300ms
+        &:hover
+          box-shadow inset 0 0 0 2em THEME
+          color: COLOR
+          font-size: (SIZE / 1.4)
+          text-shadow 0 0.05em 0 rgba(0,0,0,0.1)
+      & > h4, small
+        padding-left: 35%
+        padding-right: 5%
+
+      & > h4
+        margin-bottom: 0.5em
+      & > small
+        display: block
+        font-size: 1.0em
+
+    & .button.download
+      font-size: 3.0em
+      font-weight: 300
+
+    & h3
+      margin-bottom: 1.5em
+
+    & img.responsive
+      border: solid 0.5em DARK
+
+  & footer
+    & img
+      position: relative
+      top: 4px
+      left: 2px
+      height: 16px
+
+    & .column_6
+      padding-top: 0.7em
+
+body[data-page=doc]
+  & .menubar
+    & a
+      &.active:after
+        background-color: THEME
+
+    & .level-2 a
+      color:  darken(THEME, 5%)
+      &:hover, &:active
+        color: THEME
+
+    & a.big.button
+      &, &:visited
+        color: THEME
+        border-color: THEME
+      &:hover, &:active
+        background-color: THEME
+        color: #fff
+
+  & .content
+    & a
+      color: darken(THEME, 10%)
+      &:hover
+        color: THEME
+
+  & .title-card
+    z-index: 1
+    position: relative
+    display: table
+    width: 100%
+    color: #ccc
+    text-align: center
+    background: THEME url("../images/bck_hands.jpg") no-repeat center center
+    background-size: cover
+
+    & > .in
+      display: table-cell
+      vertical-align: middle
+
+    & .headline
+      display: inline-block
+      vertical-align: middle
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      padding-left: 40px
+      padding-right: 40px
+      max-width: 800px
+      line-height: 1.7
+      color: #fff
+
+      & img
+        margin-top: 7.5%
+        width: 50%
+        color: #fff
+
+      & h5
+        margin-top: 12.5%
+        font-weight: bold
+        color: #fff
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-size: 1.8em
+
+        & span
+          display: inline-block
+          padding: 5px 20px
+          border: solid 3px #fff
+
+@media (max-width: 768px) /* Tablet */
+  .title-card h5
+    margin-top: 100px
+
+@media (max-width: 480px) /* Mobile */
+  .title-card
+    padding: 50px 0
+  .title-card .headline
+    padding-left: 10px
+    padding-right: 10px
+    min-height: none
+  .title-card h5
+    margin-top: 40px
+    font-size: 0.9em
