@@ -1,0 +1,274 @@
+ <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bankze</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- iPhone -->
+    <link href="http://cdn.tapquo.com/lungo/icon-57.png" sizes="57x57" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="http://cdn.tapquo.com/lungo/icon-114.png" sizes="114x114" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="http://cdn.tapquo.com/lungo/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="http://cdn.tapquo.com/lungo/icon-72.png" sizes="72x72" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="http://cdn.tapquo.com/lungo/icon-144.png" sizes="144x144" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="components/quojs/login.css">
+    <link rel="stylesheet" href="components/quojs/lungo.css">
+    <link rel="stylesheet" href="components/quojs/lungo.theme.css">
+    <link rel="stylesheet" href="components/quojs/lungo.icon.css">
+    <link rel="stylesheet" type="text/css" href="css/zocial.css" />
+</head>
+
+<body>
+  <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script');
+    po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://plus.google.com/js/client:plusone.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(po, s);
+  })();
+  </script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
+<script src="https://apis.google.com/js/client.js?onload=init">
+</script>
+    <section id="login">
+        <header class="login">
+            <img src="static/images/logo.png" class="logo">
+        </header>
+        <article id="main" class="active">
+         <div id="subheader">
+         	BIENVENIDO
+        </div>
+    <div align="center"><img src="static/images/login_icon.png" Style="width:15%; margin-top:20%; margin-bottom:5%" ></div>
+    <div class="form" style="margin:0 10%;">
+    <fieldset>
+		<input type="text" placeholder="Usuario"><br/>
+        <input type="password" placeholder="Password">
+    </fieldset>
+    <div align="center" style="margin-top:2%;"><a href="#" class="button medium margin-bottom">Ingresar</a></div>
+    <div style="border-bottom:2px solid #ffffff; margin-top:10%;"></div>
+    <div style="margin-top:10%" align="center"><div id="gConnect">
+    <button class="g-signin"
+        data-scope="https://www.googleapis.com/auth/plus.login"
+        data-requestvisibleactions="http://schemas.google.com/AddActivity"
+        data-clientId="W_X2pk6uIG0RslQo8xGd-Pc0"
+        data-callback="onSignInCallback"
+        data-theme="dark"
+        data-cookiepolicy="single_host_origin">
+    </button><br/>
+    <a href="#" data-view-article="register" style="color:#fff">Registrar</a>
+  </div></div>
+	</div>
+
+        </article>
+        <article id="register">
+         <div id="subheader">
+          Registro
+        </div>
+    <div class="form" style="margin:5% 10%;">
+    <fieldset>
+    <input type="text" placeholder="Nombre" id="field1"><br/>
+    <input type="text" placeholder="Apellido" id="field2"><br/>
+    <input type="text" placeholder="Empresa" id="field3"><br/>
+    <input type="text" placeholder="Usuario" id="field4"><br/>
+    <input type="password" placeholder="Password" id="field5"><br/>
+    <input type="text" placeholder="Email" id="field6"><br/>
+    </fieldset>
+    <div align="center" style="margin-top:2%;"><a href="#" class="button left margin-bottom" data-view-article="main">Atras</a>
+    <a href="#" class="button right margin-bottom" id="registerbutton">Ingresar</a>
+  </div>
+  </div></div>
+        </article>
+        <footer class="login">
+        	
+        </footer>
+    </section>
+        
+    <!-- Lungo dependencies -->
+    <script src="components/quojs/quo.js"></script>
+    <script src="components/quojs/lungo.js"></script>
+    <!-- LungoJS - Sandbox App -->
+    <!-- Parse Dependencies -->
+    <script src="js/parse-1.2.12.min.js"></script>
+    <!-- End-->
+    <script>
+        Lungo.init({
+        });
+    </script>
+    <script>
+    $$('#registerbutton').tap(function() {
+      gapi.client.usuario.usuario.insert({"firstname":document.getElementById('field1').value,"lastname":document.getElementById('field2').value,"company":document.getElementById('field3').value,"user":document.getElementById('field4').value,"clave":document.getElementById('field5').value,"email":document.getElementById('field6').value,"flag":true}).execute(function(resp) {console.log(resp);});
+});
+    </script>
+</body>
+<script type="text/javascript">
+var helper = (function() {
+  var BASE_API_PATH = 'plus/v1/';
+
+  return {
+    /**
+     * Hides the sign in button and starts the post-authorization operations.
+     *
+     * @param {Object} authResult An Object which contains the access token and
+     *   other authentication information.
+     */
+    onSignInCallback: function(authResult) {
+      gapi.client.load('plus','v1', function(){
+        $('#authResult').html('Auth Result:<br/>');
+        for (var field in authResult) {
+          $('#authResult').append(' ' + field + ': ' +
+              authResult[field] + '<br/>');
+        }
+        if (authResult['access_token']) {
+          $('#authOps').show('slow');
+          $('#gConnect').hide();
+          helper.profile();
+          helper.people();
+        } else if (authResult['error']) {
+          // There was an error, which means the user is not signed in.
+          // As an example, you can handle by writing to the console:
+          console.log('There was an error: ' + authResult['error']);
+          $('#authResult').append('Logged out');
+          $('#authOps').hide('slow');
+          $('#gConnect').show();
+        }
+        console.log('authResult', authResult);
+      });
+    },
+
+    /**
+     * Calls the OAuth2 endpoint to disconnect the app for the user.
+     */
+    disconnect: function() {
+      // Revoke the access token.
+      $.ajax({
+        type: 'GET',
+        url: 'https://accounts.google.com/o/oauth2/revoke?token=' +
+            gapi.auth.getToken().access_token,
+        async: false,
+        contentType: 'application/json',
+        dataType: 'jsonp',
+        success: function(result) {
+          console.log('revoke response: ' + result);
+          $('#authOps').hide();
+          $('#profile').empty();
+          $('#visiblePeople').empty();
+          $('#authResult').empty();
+          $('#gConnect').show();
+        },
+        error: function(e) {
+          console.log(e);
+        }
+      });
+    },
+
+    /**
+     * Gets and renders the list of people visible to this app.
+     */
+    people: function() {
+      var request = gapi.client.plus.people.list({
+        'userId': 'me',
+        'collection': 'visible'
+      });
+      request.execute(function(people) {
+        $('#visiblePeople').empty();
+        $('#visiblePeople').append('Number of people visible to this app: ' +
+            people.totalItems + '<br/>');
+        for (var personIndex in people.items) {
+          person = people.items[personIndex];
+          $('#visiblePeople').append('<img src="' + person.image.url + '">');
+        }
+      });
+    },
+
+    /**
+     * Gets and renders the currently signed in user's profile data.
+     */
+    profile: function(){
+      var request = gapi.client.plus.people.get( {'userId' : 'me'} );
+      request.execute( function(profile) {
+        $('#profile').empty();
+        if (profile.error) {
+          $('#profile').append(profile.error);
+          return;
+        }
+        $('#profile').append(
+            $('<p><img src=\"' + profile.image.url + '\"></p>'));
+        $('#profile').append(
+            $('<p>Hello ' + profile.displayName + '!<br />Tagline: ' +
+            profile.tagline + '<br />About: ' + profile.aboutMe + '</p>'));
+        if (profile.cover && profile.coverPhoto) {
+          $('#profile').append(
+              $('<p><img src=\"' + profile.cover.coverPhoto.url + '\"></p>'));
+        }
+      });
+    }
+  };
+})();
+
+/**
+ * jQuery initialization
+ */
+$(document).ready(function() {
+  $('#disconnect').click(helper.disconnect);
+  $('#loaderror').hide();
+  if ($('[data-clientid="720686802484-ro5srkhd4s1hns01b9rqfv9bmqsd2r0m.apps.googleusercontent.com"]').length > 0) {
+    alert('This sample requires your OAuth credentials (client ID) ' +
+        'from the Google APIs console:\n' +
+        '    https://code.google.com/apis/console/#:access\n\n' +
+        'Find and replace YOUR_CLIENT_ID with your client ID.'
+    );
+  }
+});
+
+/**
+ * Calls the helper method that handles the authentication flow.
+ *
+ * @param {Object} authResult An Object which contains the access token and
+ *   other authentication information.
+ */
+function onSignInCallback(authResult) {
+  helper.onSignInCallback(authResult);
+}
+
+function init{
+var ROOT = 'https://trans-serenity-380.appspot.com/_ah/api';
+gapi.client.load('usuario', 'v1', function() {
+}, ROOT);
+}
+</script>
+</html>
