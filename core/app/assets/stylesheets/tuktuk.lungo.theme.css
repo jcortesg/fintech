@@ -68,13 +68,13 @@ body[data-page="tuktuk"] > header nav a:not(.icon){padding-bottom:.25em;-webkit-
 body[data-page="tuktuk"] > header nav a.icon{font-size:1.5em}
 body[data-page="tuktuk"] > header nav a:hover,body[data-page="tuktuk"] > header nav a:active{opacity:1;}
 body[data-page="tuktuk"] > header nav a:hover:not(.icon),body[data-page="tuktuk"] > header nav a:active:not(.icon){-webkit-box-shadow:0 2px #005872;-moz-box-shadow:0 2px #005872;-ms-box-shadow:0 2px #005872;-o-box-shadow:0 2px #005872;box-shadow:0 2px #005872}
-body[data-page="tuktuk"] > header .logo{height:44px;margin-top:18px;background:url("../images/logo_header.png") no-repeat;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-ms-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%}
+body[data-page="tuktuk"] > header .logo{height:44px;margin-top:18px;background:url("logo_header.png") no-repeat;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-ms-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%}
 body[data-page="tuktuk"] > header.fixed{position:fixed;background-color:rgba(0,0,0,0.2);}
 body[data-page="tuktuk"] > header.fixed.opacity{background-color:#00afe3;-webkit-box-shadow:0 2px rgba(0,0,0,0.1);-moz-box-shadow:0 2px rgba(0,0,0,0.1);-ms-box-shadow:0 2px rgba(0,0,0,0.1);-o-box-shadow:0 2px rgba(0,0,0,0.1);box-shadow:0 2px rgba(0,0,0,0.1)}
 body[data-page="tuktuk"] > header.fixed nav a{color:#fff !important}
-body[data-page="tuktuk"] > header.fixed .logo{background:url("../images/logo.png") no-repeat;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-ms-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%}
-body[data-page="tuktuk"] section.front{padding:7em 0 14em 0;background:#111 url("../images/bck_hands.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}
-body[data-page="tuktuk"] section.front .phone{background-image:url("../images/phone.png");height:613px;width:339px;}
+body[data-page="tuktuk"] > header.fixed .logo{background:url("logo.png") no-repeat;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;-ms-background-size:auto 100%;-o-background-size:auto 100%;background-size:auto 100%}
+body[data-page="tuktuk"] section.front{padding:7em 0 14em 0;background:#111 url("bck_hands.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}
+body[data-page="tuktuk"] section.front .phone{background-image:url("phone.png");height:613px;width:339px;}
 body[data-page="tuktuk"] section.front .phone > iframe{position:relative;top:38px;left:20px;width:300px;height:490px}
 body[data-page="tuktuk"] section.front h3{font-weight:100;margin-bottom:2em}
 body[data-page="tuktuk"] section.front h5{font-weight:bold}
@@ -99,7 +99,7 @@ body[data-page=doc] .menubar a.big.button,body[data-page=doc] .menubar a.big.but
 body[data-page=doc] .menubar a.big.button:hover,body[data-page=doc] .menubar a.big.button:active{background-color:#00afe3;color:#fff}
 body[data-page=doc] .content a{color:#009ecc;}
 body[data-page=doc] .content a:hover{color:#00afe3}
-body[data-page=doc] .title-card{z-index:1;position:relative;display:table;width:100%;color:#ccc;text-align:center;background:#00afe3 url("../images/bck_hands.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}
+body[data-page=doc] .title-card{z-index:1;position:relative;display:table;width:100%;color:#ccc;text-align:center;background:#00afe3 url("bck_hands.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}
 body[data-page=doc] .title-card > .in{display:table-cell;vertical-align:middle}
 body[data-page=doc] .title-card .headline{display:inline-block;vertical-align:middle;-webkit-box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;padding-left:40px;padding-right:40px;max-width:800px;line-height:1.7;color:#fff;}
 body[data-page=doc] .title-card .headline img{margin-top:7.5%;width:50%;color:#fff}
