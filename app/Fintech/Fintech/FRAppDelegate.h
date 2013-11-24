@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import "FRLoginViewController.h"
+
+
 
 @interface FRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) FBSession *session;
+- (void) loginFB;
 
 @end

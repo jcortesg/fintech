@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "lat": 4.571783536486,
+        "long": -74.092245853363,
+        "company": "20 De Julio"
+    },
+    {
+        "id": 1,
+        "lat": 4.656521207594,
+        "long": -74.071078715215,
+        "company": "7 De Agosto"
+    },
+    {
+        "id": 2,
+        "lat": 4.700994053379,
+        "long": -74.063122351428,
+        "company": "Alambra"
+    },
+    {
+        "id": 3,
+        "lat": 4.5709,
+        "long": -74.0934,
+        "company": "La Super Economica"
+    },
+    {
+        "id": 4,
+        "lat": 4.702319021643,
+        "long": -74.114456794392,
+        "company": "Alamos Norte"
+    },
+    {
+        "id": 5,
+        "lat": 4.66324,
+        "long": -74.06644,
+        "company": "Alcazares"
+    },
+    {
+        "id": 6,
+        "lat": 4.610126032914,
+        "long": -74.094683813205,
+        "company": "Alkosto Carrera 30"
+    }
+]

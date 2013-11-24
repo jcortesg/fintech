@@ -9,12 +9,19 @@
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 #import "LDInterface.h"
+#import "FRLoginViewController.h"
 
 
-@interface FRViewController : UIViewController
+@interface FRViewController : UIViewController <GMSMapViewDelegate>
 {
+    LDInterface * api;
+    NSArray *json;
+    IBOutlet GMSMapView *googleMapsView;
 }
-@property (nonatomic,strong) IBOutlet GMSMapView *googleMapsView;
+
+@property (strong, nonatomic) IBOutlet UITextField *addressTextField;
+@property (strong, nonatomic) IBOutlet UIButton *goButton;
+@property (strong, nonatomic) IBOutlet UILabel *raduisText;
 
 
 @end

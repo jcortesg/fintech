@@ -71,6 +71,11 @@
     
 }
 
+-(void) getCategories
+{
+    NSString *url = [NSString stringWithFormat:(@"%@",self.host)];
+    [self do_get:url :nil];
+}
 
 
 @end

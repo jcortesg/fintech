@@ -40,6 +40,16 @@
 		F51A8DEC1840C72100FDC226 /* JSONInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE51840C72100FDC226 /* JSONInterface.m */; };
 		F51A8DED1840C72100FDC226 /* LDInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE71840C72100FDC226 /* LDInterface.m */; };
 		F51A8DEE1840C72100FDC226 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */; };
+		F51A8DF21840D81B00FDC226 /* FRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DF11840D81B00FDC226 /* FRLoginViewController.m */; };
+		F51A8DF41840DAA800FDC226 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8DF31840DAA800FDC226 /* FacebookSDK.framework */; };
+		F51A8DF7184100AD00FDC226 /* FRRegistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A8DF6184100AD00FDC226 /* FRRegistroViewController.m */; };
+		F51A8DFA18410FC800FDC226 /* blue-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F51A8DF918410FC800FDC226 /* blue-pin.png */; };
+		F51A8DFC18410FCE00FDC226 /* blue-pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F51A8DFB18410FCE00FDC226 /* blue-pin@2x.png */; };
+		F59131F81841C87800239863 /* mar3.png in Resources */ = {isa = PBXBuildFile; fileRef = F59131F71841C87800239863 /* mar3.png */; };
+		F59131FE1842294F00239863 /* mar3.png in Resources */ = {isa = PBXBuildFile; fileRef = F59131FD1842294F00239863 /* mar3.png */; };
+		F5913200184239E600239863 /* oficinas.json in Resources */ = {isa = PBXBuildFile; fileRef = F59131FF184239E600239863 /* oficinas.json */; };
+		F591320418424A7000239863 /* FRRowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F591320318424A7000239863 /* FRRowViewController.m */; };
+		F591320718427A5200239863 /* FRAskingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F591320618427A5200239863 /* FRAskingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +106,20 @@
 		F51A8DE71840C72100FDC226 /* LDInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDInterface.m; sourceTree = "<group>"; };
 		F51A8DE81840C72100FDC226 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
 		F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
+		F51A8DF01840D81B00FDC226 /* FRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRLoginViewController.h; path = LoginViewController/FRLoginViewController.h; sourceTree = "<group>"; };
+		F51A8DF11840D81B00FDC226 /* FRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRLoginViewController.m; path = LoginViewController/FRLoginViewController.m; sourceTree = "<group>"; };
+		F51A8DF31840DAA800FDC226 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Fintech/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		F51A8DF5184100AD00FDC226 /* FRRegistroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRRegistroViewController.h; path = LoginViewController/FRRegistroViewController.h; sourceTree = "<group>"; };
+		F51A8DF6184100AD00FDC226 /* FRRegistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRRegistroViewController.m; path = LoginViewController/FRRegistroViewController.m; sourceTree = "<group>"; };
+		F51A8DF918410FC800FDC226 /* blue-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-pin.png"; sourceTree = "<group>"; };
+		F51A8DFB18410FCE00FDC226 /* blue-pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-pin@2x.png"; sourceTree = "<group>"; };
+		F59131F71841C87800239863 /* mar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mar3.png; sourceTree = "<group>"; };
+		F59131FD1842294F00239863 /* mar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mar3.png; sourceTree = "<group>"; };
+		F59131FF184239E600239863 /* oficinas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oficinas.json; sourceTree = "<group>"; };
+		F591320218424A7000239863 /* FRRowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRowViewController.h; sourceTree = "<group>"; };
+		F591320318424A7000239863 /* FRRowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRowViewController.m; sourceTree = "<group>"; };
+		F591320518427A5100239863 /* FRAskingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRAskingViewController.h; sourceTree = "<group>"; };
+		F591320618427A5200239863 /* FRAskingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRAskingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +135,7 @@
 				F51A8DD218408BB900FDC226 /* libc++.dylib in Frameworks */,
 				F51A8DD018408BA100FDC226 /* ImageIO.framework in Frameworks */,
 				F51A8DCE18408B9400FDC226 /* GLKit.framework in Frameworks */,
+				F51A8DF41840DAA800FDC226 /* FacebookSDK.framework in Frameworks */,
 				F51A8DCC18408B8900FDC226 /* CoreText.framework in Frameworks */,
 				F51A8DCA18408B3D00FDC226 /* CoreLocation.framework in Frameworks */,
 				F51A8DC818408B2000FDC226 /* CoreData.framework in Frameworks */,
@@ -157,6 +182,7 @@
 		F51A8D8D1840836500FDC226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F51A8DF31840DAA800FDC226 /* FacebookSDK.framework */,
 				F51A8DDD1840923C00FDC226 /* GoogleMaps.bundle */,
 				F51A8DDB18408C0D00FDC226 /* SystemConfiguration.framework */,
 				F51A8DD918408BFC00FDC226 /* QuartzCore.framework */,
@@ -182,7 +208,11 @@
 		F51A8D941840836500FDC226 /* Fintech */ = {
 			isa = PBXGroup;
 			children = (
-				F51A8DDF1840C72100FDC226 /* common */,
+				F5913201184248FE00239863 /* RowDetector */,
+				F59131F91841C9D700239863 /* assets */,
+				F51A8DF818410FB500FDC226 /* Resources */,
+				F51A8DEF1840D7C600FDC226 /* LoginViewController */,
+				F51A8DDF1840C72100FDC226 /* Common */,
 				F51A8D9D1840836500FDC226 /* FRAppDelegate.h */,
 				F51A8D9E1840836500FDC226 /* FRAppDelegate.m */,
 				F51A8DA01840836500FDC226 /* Main.storyboard */,
@@ -190,6 +220,8 @@
 				F51A8DA41840836500FDC226 /* FRViewController.m */,
 				F51A8DA61840836500FDC226 /* Images.xcassets */,
 				F51A8D951840836500FDC226 /* Supporting Files */,
+				F591320518427A5100239863 /* FRAskingViewController.h */,
+				F591320618427A5200239863 /* FRAskingViewController.m */,
 			);
 			path = Fintech;
 			sourceTree = "<group>";
@@ -223,7 +255,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F51A8DDF1840C72100FDC226 /* common */ = {
+		F51A8DDF1840C72100FDC226 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				F51A8DE01840C72100FDC226 /* ApiDataException.h */,
@@ -237,7 +269,55 @@
 				F51A8DE81840C72100FDC226 /* NSDictionary+Helper.h */,
 				F51A8DE91840C72100FDC226 /* NSDictionary+Helper.m */,
 			);
+			name = Common;
 			path = common;
+			sourceTree = "<group>";
+		};
+		F51A8DEF1840D7C600FDC226 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F51A8DF01840D81B00FDC226 /* FRLoginViewController.h */,
+				F51A8DF11840D81B00FDC226 /* FRLoginViewController.m */,
+				F51A8DF5184100AD00FDC226 /* FRRegistroViewController.h */,
+				F51A8DF6184100AD00FDC226 /* FRRegistroViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		F51A8DF818410FB500FDC226 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F59131F71841C87800239863 /* mar3.png */,
+				F51A8DF918410FC800FDC226 /* blue-pin.png */,
+				F51A8DFB18410FCE00FDC226 /* blue-pin@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F59131F91841C9D700239863 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				F59131FD1842294F00239863 /* mar3.png */,
+				F59131FA1841C9D700239863 /* json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		F59131FA1841C9D700239863 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F59131FF184239E600239863 /* oficinas.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		F5913201184248FE00239863 /* RowDetector */ = {
+			isa = PBXGroup;
+			children = (
+				F591320218424A7000239863 /* FRRowViewController.h */,
+				F591320318424A7000239863 /* FRRowViewController.m */,
+			);
+			name = RowDetector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51A8DA71840836500FDC226 /* Images.xcassets in Resources */,
+				F59131FE1842294F00239863 /* mar3.png in Resources */,
+				F59131F81841C87800239863 /* mar3.png in Resources */,
 				F51A8D991840836500FDC226 /* InfoPlist.strings in Resources */,
+				F5913200184239E600239863 /* oficinas.json in Resources */,
+				F51A8DFC18410FCE00FDC226 /* blue-pin@2x.png in Resources */,
 				F51A8DA21840836500FDC226 /* Main.storyboard in Resources */,
 				F51A8DDE1840923C00FDC226 /* GoogleMaps.bundle in Resources */,
+				F51A8DFA18410FC800FDC226 /* blue-pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,11 +427,15 @@
 				F51A8DEA1840C72100FDC226 /* ApiDataException.m in Sources */,
 				F51A8DEC1840C72100FDC226 /* JSONInterface.m in Sources */,
 				F51A8DEE1840C72100FDC226 /* NSDictionary+Helper.m in Sources */,
+				F591320718427A5200239863 /* FRAskingViewController.m in Sources */,
 				F51A8D9F1840836500FDC226 /* FRAppDelegate.m in Sources */,
 				F51A8D9B1840836500FDC226 /* main.m in Sources */,
 				F51A8DEB1840C72100FDC226 /* EnumDefs.m in Sources */,
+				F591320418424A7000239863 /* FRRowViewController.m in Sources */,
+				F51A8DF21840D81B00FDC226 /* FRLoginViewController.m in Sources */,
 				F51A8DA51840836500FDC226 /* FRViewController.m in Sources */,
 				F51A8DED1840C72100FDC226 /* LDInterface.m in Sources */,
+				F51A8DF7184100AD00FDC226 /* FRRegistroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +565,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JohnTorres/git/fintech/app/Fintech,
+					/Users/JohnTorres/git/fintech/app/Fintech/Fintech/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fintech/Fintech-Prefix.pch";
@@ -494,6 +584,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JohnTorres/git/fintech/app/Fintech,
+					/Users/JohnTorres/git/fintech/app/Fintech/Fintech/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fintech/Fintech-Prefix.pch";
@@ -565,6 +656,7 @@
 				F51A8DBF1840836500FDC226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51A8DC01840836500FDC226 /* Build configuration list for PBXNativeTarget "FintechTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +665,7 @@
 				F51A8DC21840836500FDC226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

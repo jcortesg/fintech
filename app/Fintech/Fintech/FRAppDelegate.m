@@ -14,9 +14,32 @@
 {
     // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyA8HzcSaZK_jpMmIcA8viV4QrJlVj5xboo"];
+    
+    // See if the app has a valid token for the current state.
+
     return YES;
 }
-							
+- (void) loginFB
+{
+    if (FBSession.activeSession.state == FBSessionStateCreatedTokenLoaded) {
+        // To-do, show logged in view
+    } else {
+        // No, display the login page.
+        [self showLoginView];
+    }
+
+}
+- (void) showLoginView
+{
+    FRLoginViewController  * loginViewController = [[UIStoryboard  storyboardWithName:@"Main"
+                                                                               bundle:nil]
+                                                    instantiateViewControllerWithIdentifier:@"loginView"];
+    
+    [self.window.rootViewController presentViewController:loginViewController
+                                                 animated:NO
+                                               completion:nil];
+    
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,6 +65,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    return [FBSession.activeSession handleOpenURL:url];
 }
 
 @end
